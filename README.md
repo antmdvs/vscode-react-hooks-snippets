@@ -4,9 +4,9 @@
 
 ## Features
 
-\!\[useState\]\(images/useState.gif\)
+![useState](images/useState.gif)
 
-The second placeholder value is automatically capitalized on <kbd>TAB</kbd>.
+The second placeholder value is automatically capitalized on <kbd>Tab</kbd>.
 
 |Snippet|Purpose|
 |:---:|:---:|
