@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "publisher": "antmdvs",
     "engines": {
-        "vscode": "^ 1.25.1"
+        "vscode": "^1.25.1"
     },
     "categories": [
         "Snippets"
