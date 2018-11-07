@@ -4,9 +4,9 @@
 
 ## Features
 
-\!\[useState\]\(images/useState.gif\)
+![useState](https://github.com/antmdvs/vscode-react-hooks-snippets/blob/master/images/useState.gif)
 
-The second placeholder value is automatically capitalized on <kbd>TAB</kbd>.
+The second placeholder value is automatically capitalized on <kbd>Tab</kbd>.
 
 |Snippet|Purpose|
 |:---:|:---:|
