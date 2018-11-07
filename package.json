@@ -1,0 +1,33 @@
+{
+    "name": "vscode-react-hooks-snippets",
+    "displayName": "React Hooks Snippets",
+    "description": "(EXPERIMENTAL) React Hooks Snippets for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "antmdvs",
+    "engines": {
+        "vscode": "^ 1.25.1"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
