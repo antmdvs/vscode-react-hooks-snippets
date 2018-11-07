@@ -1,10 +1,34 @@
 {
-    "Use State": {
-      "prefix": "us",
-      "body": [
-        "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2);",
-        "$0"
-      ],
-      "description": "React: Use State"
-    }
+  "useState()": {
+    "prefix": "us",
+    "body": [
+      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2);",
+      "$0"
+    ],
+    "description": "useState()"
+  },
+  "useState(true)": {
+    "prefix": "ust",
+    "body": [
+      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(true);",
+      "$0"
+    ],
+    "description": "useState(true)"
+  },
+  "useState(false)": {
+    "prefix": "usf",
+    "body": [
+      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(false);",
+      "$0"
+    ],
+    "description": "useState(false)"
+  },
+  "useState(null)": {
+    "prefix": "usn",
+    "body": [
+      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(null);",
+      "$0"
+    ],
+    "description": "useState(null)"
   }
+}

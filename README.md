@@ -4,11 +4,20 @@
 
 ## Features
 
-This extension contributes a handy snippet for the [useState hook](https://reactjs.org/docs/hooks-reference.html#usestate).
+This extension contributes a few handy snippet for the [useState hook](https://reactjs.org/docs/hooks-reference.html#usestate).
 
 ![useState](images/useState.gif)
 
 The second placeholder value is automatically capitalized on <kbd>Tab</kbd>.
+
+In addition, there are a few variations with common initial state values:
+
+| Snippet | Purpose           |
+| ------- | ----------------- |
+| `us`    | `useState()`      |
+| `usf`   | `useState(false)` |
+| `ust`   | `useState(true)`  |
+| `usn`   | `useState(null)`  |
 
 ## Requirements
 
