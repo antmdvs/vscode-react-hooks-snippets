@@ -4,7 +4,7 @@
 
 ## Features
 
-This extension contributes a few handy snippet for the [useState hook](https://reactjs.org/docs/hooks-reference.html#usestate).
+This extension contributes a few handy snippets for the [useState hook](https://reactjs.org/docs/hooks-reference.html#usestate).
 
 ![useState](images/useState.gif)
 
