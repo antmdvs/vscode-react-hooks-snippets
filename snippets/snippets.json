@@ -30,5 +30,13 @@
       "$0"
     ],
     "description": "useState(null)"
-  }
+  },
+  "useEffect": {
+		"prefix": "useEffect",
+		"body": [
+			"useEffect(() => {\n\n  $1\n\n  return () => {\n    $2\n  };\n\n}${3:, [${4:if_render_changes}]});",
+			"$0"
+		],
+		"description": "React: useEffect()"
+	}
 }
