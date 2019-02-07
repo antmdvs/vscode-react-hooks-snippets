@@ -10,7 +10,7 @@ This extension contributes a handy snippet for the [useState hook](https://react
 
 The second placeholder value is automatically capitalized on <kbd>Tab</kbd>.
 
-In addition, there are a few variations with common initial state values:
+There are also a few variations for common initial state values:
 
 | Snippet | Purpose           |
 | ------- | ----------------- |
@@ -27,7 +27,7 @@ Visual Studio Code 1.25.1 or higher.
 
 TBD. After all, Hooks are not officially released yet.
 
-## "I prefer `let` over `const`."
+## "But I prefer `let` over `const`."
 
 It's easy enough to [create your own snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_creating-your-own-snippets) in VS Code! You can use [this gist](https://gist.github.com/antmdvs/63903d7f98f8d82d0c6463abebb77cd7) as a starting point.
 
