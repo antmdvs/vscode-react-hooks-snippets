@@ -10,7 +10,7 @@
   "useState(true)": {
     "prefix": "ust",
     "body": [
-      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(true);",
+      "const [${1}, setIs${1/(.*)/${1:/capitalize}/}] = useState(true);",
       "$0"
     ],
     "description": "useState(true)"
@@ -18,7 +18,7 @@
   "useState(false)": {
     "prefix": "usf",
     "body": [
-      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(false);",
+      "const [${1}, setIs${1/(.*)/${1:/capitalize}/}] = useState(false);",
       "$0"
     ],
     "description": "useState(false)"
